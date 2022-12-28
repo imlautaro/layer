@@ -1,0 +1,15 @@
+{
+	"name": "my-nuxt-layer",
+	"type": "module",
+	"version": "0.0.1",
+	"main": "./nuxt.config.ts",
+	"scripts": {
+		"dev": "nuxi prepare & nuxi dev .playground",
+		"build": "nuxi build .playground",
+		"generate": "nuxi generate .playground",
+		"preview": "nuxi preview .playground"
+	},
+	"devDependencies": {
+		"nuxt": "^3.0.0"
+	}
+}
